@@ -188,8 +188,10 @@
   "dependencies": {
     "devtron": "^1.4.0",
     "electron-debug": "^1.2.0",
+    "eslint-config-defaults": "^9.0.0",
     "font-awesome": "^4.7.0",
     "history": "^4.6.3",
+    "material-ui": "^0.19.4",
     "react": "^15.6.1",
     "react-desktop": "^0.3.2",
     "react-dom": "^15.6.1",

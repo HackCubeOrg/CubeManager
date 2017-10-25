@@ -1,38 +1,43 @@
-@import "~font-awesome/css/font-awesome.css";
+html, #root {
+  height: 100%;
+  padding:0px;
+  margin: 0px;
+}
 
 body {
-  position: relative;
-  color: white;
-  height: 100vh;
-  background-color: #232c39;
-  font-family: Arial, Helvetica, Helvetica Neue, serif;
-  overflow-y: hidden;
+  min-height: 100%;
+  padding:0px;
+  margin: 0px;
 }
 
-h2 {
-  margin: 0;
-  font-size: 2.25rem;
-  font-weight: bold;
-  letter-spacing: -0.025em;
-  color: #fff;
+.container {
+  min-height: 100%;
+  display: block;
 }
 
-p {
-  font-size: 24px;
+.footer {
+
+  position: absolute;
+  bottom:0px;
+  width: 100%;
 }
 
-li {
-  list-style: none;
+.main-content{
+  flex: 1 0 auto;
 }
 
-a {
-  color: white;
-  opacity: 0.75;
-  text-decoration: none;
+
+.desktop-wrapper {
+  display: block;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content:flex-start;
 }
 
-a:hover {
-  opacity: 1;
-  text-decoration: none;
-  cursor: pointer;
+.desktop-panel {
+  float:left;
+  width: 50%;
+  height: 100%;
 }
