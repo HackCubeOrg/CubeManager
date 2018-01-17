@@ -29,7 +29,6 @@ export default class App extends Component {
     return (
       <MuiThemeProvider>
         <div className="container">
-          <AppBar title="Hack Cube" iconClassNameRight="muidocs-icon-navigation-expand-more" />
           <div className="main-content">
             {this.props.children}
           </div>
